@@ -1,0 +1,68 @@
+Microsoft Windows [Version 10.0.19042.985]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Administrator\Desktop\classes\CSC_594\finals>java -jar abcl.jar
+Armed Bear Common Lisp 1.2.1
+Java 1.8.0_261 Oracle Corporation
+Java HotSpot(TM) Client VM
+Low-level initialization completed in 0.211 seconds.
+Startup completed in 3.259 seconds.
+Type ":help" for a list of available commands.
+CL-USER(1): (load "emotions.lisp")
+
+This is Anirudh Edupuganti's emotions Learning program
+Choose your emotional status that suits with.(make-happy-personality) (make-normal-personality) (make-stressed-personality).
+
+To tell your emotions, just type (emotions) at the LISP prompt
+
+type (load "MyData.lisp") at the LISP prompt.
+
+
+To read in previous data [in MyData.lisp],
+T
+CL-USER(2): (make-happy-personality)
+("Ahh " "I thought I knew " "I will see you again")
+CL-USER(3): (emotions)
+Are you stressed? [y/n]
+y
+Is it a TRUE? [y/n]
+n
+I thought I knew
+
+What was it [type one word]?
+bad
+Type a question that is true for BAD and false for TRUE [in quotes]:
+
+"Are you feeling bad" "are you feeling good"
+
+Would you like to answer again? [y/n]
+Thanks for playing. [Use (saveit "fname.lisp") if you want to save your data.]
+NIL
+CL-USER(4): (saveit "emotionsC.lisp")
+T
+CL-USER(5): (load "emotionsC.lisp")
+T
+CL-USER(6): (emotions)
+Are you stressed? [y/n]
+y
+Are you feeling bad? [y/n]
+y
+Is it a BAD? [y/n]
+y
+I thought so
+
+Would you like to answer again? [y/n]
+y
+Are you stressed? [y/n]
+y
+Are you feeling bad? [y/n]
+n
+Is it a TRUE? [y/n]
+y
+all will be good!
+
+Would you like to answer again? [y/n]
+n
+Thanks for playing. [Use (saveit "fname.lisp") if you want to save your data.]
+NIL
+CL-USER(7):
